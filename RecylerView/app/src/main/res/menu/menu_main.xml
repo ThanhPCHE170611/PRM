@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/option_setting"
+        android:title="Settings" />
+    <item android:id="@+id/option_favorites"
+        android:title="Favorite"/>
+    <item
+        android:id="@+id/action_favorites"
+        android:icon="@drawable/ic_action_product"
+        android:orderInCategory="30"
+        android:title="Favorites"
+        app:showAsAction="ifRoom" />
+</menu>
